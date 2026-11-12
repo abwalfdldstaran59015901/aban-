@@ -52,7 +52,7 @@ Future<void> printPeriodTable({
   }
 
   doc.addPage(
-    pw.Page(
+    pw.MultiPage(
       pageFormat: PdfPageFormat.a4,
       margin: const pw.EdgeInsets.all(28),
       textDirection: pw.TextDirection.rtl,
